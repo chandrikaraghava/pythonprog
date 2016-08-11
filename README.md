@@ -1,2 +1,7 @@
-# pythonprog
-creating python programs
+def not_string(str):
+  if len(str)>=3 and str[:3]=='not':
+    return str
+  else:
+    str = 'not' + ' ' + str
+    return str
+
